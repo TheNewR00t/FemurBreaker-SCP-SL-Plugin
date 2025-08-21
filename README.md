@@ -8,5 +8,4 @@ If you want to change the language, you can do it in the configuration file. If 
 To make the table schematic spawn automatically, you need to spawn the table with "mp cr 106recontainment" and then move it with "mp pos grab". To save it, use "mp save Femurbreaker". Then, go to the settings of "MapEditorReborn" and where it says "Load_map_on_event:", where it says "on_round_started: []", put it in "on_round_started:" as shown in the picture below.
 
 ![image](https://github.com/TheNewR00t/FemurBreaker-SCP-SL-Plugin/assets/126024362/3a94220a-e20b-4b51-8729-748ebcff1e98)
-![image](https://github.com/TheNewR00t/FemurBreaker-SCP-SL-Plugin/assets/126024362/1e08bafb-6c6d-4b68-8700-208f55c04d27)
-
+<img width="1920" height="1080" alt="{3D2911FE-5EA3-4AB3-8982-07A8E6F94C86}" src="https://github.com/user-attachments/assets/8ee94e60-c698-4e4c-8e11-996f54bded43" />
