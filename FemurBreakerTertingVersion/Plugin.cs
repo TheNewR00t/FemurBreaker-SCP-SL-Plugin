@@ -1,7 +1,7 @@
 ﻿namespace FemurBreakerTertingVersion
 {
     using Exiled.API.Features;
-    using Merr = MapEditorReborn.Events.Handlers.Schematic;
+    using Merr = ProjectMER.Events.Handlers.Schematic;
     using ExiledhandlerS = Exiled.Events.Handlers.Server;
     using System.IO;
 

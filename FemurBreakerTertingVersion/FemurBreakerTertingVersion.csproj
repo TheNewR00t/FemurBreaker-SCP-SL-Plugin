@@ -5,16 +5,17 @@
     <RootNamespace>FemurBreaker</RootNamespace>
     <AssemblyName>FemurBreaker</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Platforms>AnyCPU;ARM64</Platforms>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="EXILED" Version="8.9.11" />
+    <PackageReference Include="ExMod.Exiled" Version="9.8.1" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>..\Thirdparty\SCPSL\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="AudioPlayer">
       <HintPath>..\Thirdparty\Other\AudioPlayer.dll</HintPath>
@@ -22,17 +23,20 @@
     <Reference Include="CommandSystem.Core">
       <HintPath>..\Thirdparty\SCPSL\CommandSystem.Core.dll</HintPath>
     </Reference>
-    <Reference Include="MapEditorReborn">
-      <HintPath>..\Thirdparty\Other\MapEditorReborn.dll</HintPath>
-    </Reference>
     <Reference Include="Mirror">
       <HintPath>..\Thirdparty\Other\Mirror.dll</HintPath>
     </Reference>
     <Reference Include="NorthwoodLib">
       <HintPath>..\Thirdparty\SCPSL\NorthwoodLib.dll</HintPath>
     </Reference>
+    <Reference Include="NVorbis">
+      <HintPath>..\Thirdparty\Other\NVorbis.dll</HintPath>
+    </Reference>
     <Reference Include="PluginAPI">
       <HintPath>..\Thirdparty\SCPSL\PluginAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectMER">
+      <HintPath>..\Thirdparty\Other\ProjectMER.dll</HintPath>
     </Reference>
     <Reference Include="SCPSLAudioApi">
       <HintPath>..\Thirdparty\Other\SCPSLAudioApi.dll</HintPath>

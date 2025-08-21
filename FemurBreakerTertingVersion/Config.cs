@@ -12,7 +12,7 @@
         [Description("How many percent do you want the femurbreaker to get right?")]
         public float porcent { get; set; } = 25;
         [Description("Onfailure")]
-        public string OnFailure { get; set; } = "!The recontainment of scp 106 has failed! Find another person for recontainment¡";
+        public string OnFailure { get; set; } = "¡The recontainment of scp 106 has failed! Find another person for recontainment!";
         [Description("OnDeath")]
         public string OnDeath { get; set; } = "SCP-106 has been successfully recontained!";
         [Description("Announcement that Cassie makes when a player restrains himself from killing 106")]

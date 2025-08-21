@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8.1": {
-      "EXILED/8.9.11": {
+      "ExMod.Exiled/9.8.1": {
         "type": "package",
         "compile": {
           "lib/net48/Assembly-CSharp-Publicized.dll": {},
@@ -28,8 +28,8 @@
           "lib/net48/Exiled.Permissions.dll": {
             "related": ".xml"
           },
+          "lib/net48/LabApi.dll": {},
           "lib/net48/NorthwoodLib.dll": {},
-          "lib/net48/PluginAPI.dll": {},
           "lib/net48/YamlDotNet.dll": {}
         },
         "runtime": {
@@ -56,8 +56,8 @@
           "lib/net48/Exiled.Permissions.dll": {
             "related": ".xml"
           },
+          "lib/net48/LabApi.dll": {},
           "lib/net48/NorthwoodLib.dll": {},
-          "lib/net48/PluginAPI.dll": {},
           "lib/net48/YamlDotNet.dll": {}
         }
       },
@@ -115,16 +115,16 @@
     }
   },
   "libraries": {
-    "EXILED/8.9.11": {
-      "sha512": "JhsmapkYLqqobUUnsZyXKhIXnYwQ55eyNUw97Cxbd/LFtTXMjEYVlJpLQjZNwE2uJc6p0JjdOMNj7aqOQkgnqA==",
+    "ExMod.Exiled/9.8.1": {
+      "sha512": "I2Y7fn9fl07W72TN9XVaST3efjJKGq5/B5ZfXb4VrCJEstTXdqFBJfFMMv0TWrXThHVsTLrXVGkYsr1WQ4y82w==",
       "type": "package",
-      "path": "exiled/8.9.11",
+      "path": "exmod.exiled/9.8.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "exiled.8.9.11.nupkg.sha512",
-        "exiled.nuspec",
-        "images/Exiled_Icon.jpg",
+        "exmod.exiled.9.8.1.nupkg.sha512",
+        "exmod.exiled.nuspec",
+        "images/Exiled_Icon.png",
         "lib/net48/Assembly-CSharp-Publicized.dll",
         "lib/net48/CommandSystem.Core.dll",
         "lib/net48/Exiled.API.dll",
@@ -141,8 +141,8 @@
         "lib/net48/Exiled.Loader.xml",
         "lib/net48/Exiled.Permissions.dll",
         "lib/net48/Exiled.Permissions.xml",
+        "lib/net48/LabApi.dll",
         "lib/net48/NorthwoodLib.dll",
-        "lib/net48/PluginAPI.dll",
         "lib/net48/YamlDotNet.dll"
       ]
     },
@@ -718,7 +718,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8.1": [
-      "EXILED >= 8.9.11",
+      "ExMod.Exiled >= 9.8.1",
       "Microsoft.CSharp >= 4.7.0",
       "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
       "System.ComponentModel.Annotations >= 5.0.0",
@@ -726,23 +726,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\davil\\.nuget\\packages\\": {},
+    "C:\\Users\\dav\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davil\\Documents\\GitHub\\FemurBreaker-SCP-SL-Plugin\\FemurBreakerTertingVersion\\FemurBreakerTertingVersion.csproj",
+      "projectUniqueName": "C:\\Users\\dav\\Documents\\GitHub\\SpaidDidce\\FemurBreaker-SCP-SL-Plugin\\FemurBreakerTertingVersion\\FemurBreakerTertingVersion.csproj",
       "projectName": "FemurBreaker",
-      "projectPath": "C:\\Users\\davil\\Documents\\GitHub\\FemurBreaker-SCP-SL-Plugin\\FemurBreakerTertingVersion\\FemurBreakerTertingVersion.csproj",
-      "packagesPath": "C:\\Users\\davil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davil\\Documents\\GitHub\\FemurBreaker-SCP-SL-Plugin\\FemurBreakerTertingVersion\\obj\\",
+      "projectPath": "C:\\Users\\dav\\Documents\\GitHub\\SpaidDidce\\FemurBreaker-SCP-SL-Plugin\\FemurBreakerTertingVersion\\FemurBreakerTertingVersion.csproj",
+      "packagesPath": "C:\\Users\\dav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dav\\Documents\\GitHub\\SpaidDidce\\FemurBreaker-SCP-SL-Plugin\\FemurBreakerTertingVersion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\davil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dav\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -751,7 +751,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -769,15 +768,16 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net481": {
         "targetAlias": "net481",
         "dependencies": {
-          "EXILED": {
+          "ExMod.Exiled": {
             "target": "Package",
-            "version": "[8.9.11, )"
+            "version": "[9.8.1, )"
           },
           "Microsoft.CSharp": {
             "target": "Package",
@@ -798,7 +798,7 @@
             "version": "[4.5.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
