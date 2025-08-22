@@ -32,10 +32,10 @@ namespace FemurBreakerTertingVersion
                     HandleSecondInteraction(ev.Player);
                     break;
                 case 3:
-                    ev.Player.SendBroadcast(plugin.Config.OnRecontainmentRepeat, 4);
+                    ev.Player.SendBroadcast(plugin.Translation.OnRecontainmentRepeat, 4);
                     break;
                 default:
-                    ev.Player.SendBroadcast(plugin.Config.OnRequirements, 4);
+                    ev.Player.SendBroadcast(plugin.Translation.OnRequirements, 4);
                     break;
             }
         }
@@ -45,11 +45,11 @@ namespace FemurBreakerTertingVersion
             playerAlive = 1;
             if (plugin.Config.CassieWithSacrificie)
             {
-                player.Kill(plugin.Config.OnSacrificeDeathReason, plugin.Config.CassieAnounceWhitPlayerDead);
+                player.Kill(plugin.Translation.OnSacrificeDeathReason, plugin.Config.CassieAnounceWhitPlayerDead);
             }
             else
             {
-                player.Kill(plugin.Config.OnSacrificeDeathReason);
+                player.Kill(plugin.Translation.OnSacrificeDeathReason);
             }
         }
 
@@ -70,12 +70,12 @@ namespace FemurBreakerTertingVersion
             if (!success)
             {
                 playerAlive = 0;
-                player.Broadcast(4, plugin.Config.OnFailure);
+                player.Broadcast(4, plugin.Translation.OnFailure);
             }
             else
             {
                 playerAlive = 3;
-                player.Broadcast(4, plugin.Config.OnDeath);
+                player.Broadcast(4, plugin.Translation.OnDeath);
                 AffectScp106();
                 Extension(plugin.Config.npc);
             }
@@ -97,7 +97,7 @@ namespace FemurBreakerTertingVersion
         {
             if (!plugin.Config.SoundOrNotsound)
             {
-                Cassie.Message(plugin.Config.Cassie);
+                Cassie.Message(plugin.Translation.Cassie);
                 return;
             }
 
