@@ -25,6 +25,10 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Plugin.cs",
@@ -34,12 +38,7 @@
               "RelativeToolTip": "FemurBreakerTertingVersion\\Plugin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T12:07:00.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-08-21T12:07:00.1Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "FemurBreakerTertingVersion\\Config.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:51:52.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T14:51:52.84Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "FemurBreakerTertingVersion\\EventHandlers.cs",
               "ToolTip": "C:\\Users\\dav\\Documents\\GitHub\\SpaidDidce\\FemurBreaker-SCP-SL-Plugin\\FemurBreakerTertingVersion\\EventHandlers.cs",
               "RelativeToolTip": "FemurBreakerTertingVersion\\EventHandlers.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAkwHUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAtwHsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T23:46:50.857Z",
               "EditorCaption": ""
