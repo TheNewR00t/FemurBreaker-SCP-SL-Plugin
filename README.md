@@ -4,7 +4,7 @@ Download the plugin and its dependencies and put the DLLs in the EXILED plugins 
 To create your own table in Unity with MapEditorReborn, you need to create a button called 'Button106'.
 # Translation
 The translations file is the file where you can change the language
-```
+```yaml
 # Onfailure
 on_failure: '¡The recontainment of scp 106 has failed! Find another person for recontainment!'
 # OnDeath
@@ -22,7 +22,7 @@ cassie: 'SCP 1 0 6 HAS BEEN SUCCEFULY RECONTAINED BY FEMUR BREAKER'
 ```
 # Configuration file
 If you want to change the language, you can do it in the configuration file. If you also want to change the accuracy percentage, it's there as well. Additionally, if you want to disable the audio bot, that's also there.
-```
+```yaml
 is_enabled: true
 debug: false
 # How many percent do you want the femurbreaker to get right?
